@@ -21,28 +21,4 @@ const schemaUser = yup.object().shape({
     .required("O campo senha é obrigatório!"),
 });
 
-// const validData = {
-//   username: "john",
-//   email: "john@test.com",
-//   dataNascimento: "1990-01-01",
-//   password: "123456789",
-// };
-
-// const invalidData = {
-//   username: "john",
-//   email: "john@test.com",
-//   dataNascimento: "2010-01-01",
-//   password: "123456789",
-// };
-
-// schemaUser
-//   .validate(validData)
-//   .then((valid) => console.log("Valid Data:", valid))
-//   .catch((error) => console.error("Validation Error for Valid Data:", error));
-
-// schemaUser
-//   .validate(invalidData)
-//   .then((valid) => console.log("Valid Data:", valid))
-//   .catch((error) => console.error("Validation Error for Invalid Data:", error));
-
 export default schemaUser;

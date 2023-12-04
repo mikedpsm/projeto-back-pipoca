@@ -2,7 +2,9 @@
 
 
 
-Para iniciar o projeto:
+Ao baixar o projeto pela primeira vez:
+>npm install
+Para rodar o projeto no modo dev:
 >npm run dev
 
 

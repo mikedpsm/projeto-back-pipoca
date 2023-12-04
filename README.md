@@ -1,8 +1,11 @@
-# projeto-back-pipoca
-Projeto desenvolvido para o projeto voluntário experimental do Pipoca ágil. Equipe Vermelho Ruby
+# Back-End - Pipoca Ágil
+
+
 
 Para iniciar o projeto:
 >npm run dev
+
+
 
 Libs utilizadas:
 - Prisma
